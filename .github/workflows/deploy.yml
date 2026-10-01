@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@f548e57e544e1ff5a4c46bf1e1b8685f8e4a348a
-      - uses: actions/setup-node@ae0d4ed08881f17d1511386f5be3e62356acd4a6
+      - uses: actions/setup-node@7f84f1d52d0c56afb45c62fee31a93b843cea4d6
         with:
           node-version: 24
           cache: npm
